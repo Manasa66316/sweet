@@ -1,54 +1,16 @@
-# sweet
-A full-stack Sweet Shop Management System built as part of the AI Kata (TDD-based assessment).
-The system enables users to authenticate, browse and purchase sweets, while admin users manage inventory with role-based access control.
-AI Tools Used
+# React + Vite
 
-🧰 Tech Stack
-Backend
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Python
+Currently, two official plugins are available:
 
-FastAPI
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-SQLAlchemy ORM
+## React Compiler
 
-SQLite (development) / PostgreSQL (production-ready)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-JWT Authentication
+## Expanding the ESLint configuration
 
-Passlib (bcrypt)
-
-Pytest
-
-Frontend
-
-React (Vite)
-
-React Router
-
-Axios
-
-Context API
-
-Tools & DevOps
-
-Git & GitHub
-
-VS Code
-
-Postman
-
-npm
-
-ChatGPT – Used for:
-
-Designing API structure
-
-Generating boilerplate code
-
-Debugging FastAPI and React issues
-
-Improving test coverage
-
-Refining project structure
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
